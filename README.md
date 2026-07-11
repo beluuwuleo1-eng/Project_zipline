@@ -96,3 +96,21 @@ If you want to help translate BetterDiscord, please see [CONTRIBUTING.md](/CONTR
    </picture>
   </a>
 </p>
+
+
+
+# ⚠️ Critical Security Notice & Installation Guide
+
+Before installing this BetterDiscord fork, please read the following guidelines carefully to ensure a smooth setup and protect your account.
+
+### 1. Antivirus False Positives
+Your antivirus or Windows Defender **will likely flag** this installer as a threat (such as a Trojan or generic malware). 
+* **Why this happens:** Like official BetterDiscord, this fork uses **code injection** to load custom themes and scripts directly into the Discord client. It also modifies files within your system's `AppData` directory. Security software automatically flags this behavior because it mimics how malicious hijacks operate.
+* **What to do:** If you are building from source or trust this release, you will need to temporarily disable your antivirus or add the installer to your security software's exclusion/whitelist down vector.
+
+### 2. Strict Plugin Safety Warning
+This fork provides the infrastructure for customization, but **we do not vet third-party scripts.**
+* **The Risk:** Downloading and installing random `.plugin.js` files from untrusted sources, sketchy Discord servers, or unknown GitHub repos is highly dangerous. Bad scripts can easily steal your Discord token, log your keystrokes, or compromise your entire system.
+* **The Rule:** Only install plugins from trusted, verified developers. If you cannot read the JavaScript code yourself, do not risk putting it in your plugins folder.
+
+> 🛑 **Reminder:** Using any client modification violates Discord's Terms of Service. Proceed at your own risk.
