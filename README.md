@@ -24,7 +24,7 @@
 [i18n-link]: https://translate.betterdiscord.app
 
 
-BetterDiscord is a client modification for Discord with endless flexibility and addons. The only limit to the customization is your own imagination.
+project zipline is a modified version of better discord that improves a lot of feature of normal better discord
 
 [![Theme Split](https://betterdiscord.app/resources/branding/split.png)](https://betterdiscord.app/)
 
